@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * @file
+ * Installation functions for Drupal Commerce Payment.
+ */
+
+
+function commerce_paymentnepal_uninstall()
+{
+    variable_del('commerce_paymentnepal_settings');
+}
